@@ -114,13 +114,17 @@ defaults:
       author_profile: false
   # categories
   - scope:
+      path: "_pages"
       type: categories
     values:
+      layout: categories
       author_profile: false
   # tags
   - scope:
+      path: "_pages"
       type: tags
     values:
+      layout: tags
       author_profile: false
 
 
