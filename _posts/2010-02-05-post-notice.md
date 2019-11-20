@@ -49,7 +49,7 @@ Want to wrap several paragraphs or other elements in a notice? Using Liquid to c
 * Drafts will now auto-save while writing
 {% endcapture %}
 
-<div class="notice">
+<div class="notice--info">
   {{ notice-2 | markdownify }}
 </div>
 
@@ -62,7 +62,7 @@ Or you could skip the capture and stick with straight HTML.
 </div>
 ```
 
-<div class="notice">
+<div class="notice--success">
   <h4>Message</h4>
   <p>A basic message.</p>
 </div>
