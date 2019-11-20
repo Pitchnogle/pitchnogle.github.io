@@ -24,7 +24,7 @@ print_hi('Tom')
 
 Does BASIC work to?
 
-```basic
+```
 10 PRINT "HELLO"
 20 GOTO 10
 ```
