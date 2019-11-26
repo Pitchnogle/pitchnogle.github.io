@@ -10,12 +10,12 @@ The Commodore 64 version of BASIC features abbreviations for many common command
 
 For example, the abbreviation for `PRINT` is a question mark. This saves some typing when entering the commands. However, `LIST` will show the full command if used in a program.
 
-Appendix A in the [Commodore 64 Programmer's Reference Guide](https://github.com/Pitchnogle/commodore64/blob/master/reference/C64_Programmer's_Reference_Guide.pdf) shows the full list.
+Appendix A in the [Commodore 64 Programmer's Reference Guide]({{ site.url }}/assets/pdf/C64_Programmer's_Reference_Guide.pdf) shows the full list.
 
 Here are some common abbreviations:  
 
-| Command | Abbreviation | Looks like                                    |
-|:--------|:-------------|:----------------------------------------------|
+| Command | Abbreviation | Looks like                                                |
+|:--------|:-------------|:----------------------------------------------------------|
 | ASC     | A shift S    | ![ASC cmd]({{ site.url }}/assets/c64/c64_asc_cmd.png)     |
 | CHR$    | C shift H    | ![CHR$ cmd]({{ site.url }}/assets/c64/c64_chr_cmd.png)    |
 | CLOSE   | CL shift O   | ![CLOSE cmd]({{ site.url }}/assets/c64/c64_close_cmd.png) |
