@@ -16,12 +16,12 @@ Here are some common abbreviations:
 
 | Command | Abbreviation | Looks like                                    |
 |:--------|:-------------|:----------------------------------------------|
-| ASC     | A shift S    | ![ASC cmd](../assets/c64/c64_asc_cmd.png)     |
-| CHR$    | C shift H    | ![CHR$ cmd](../assets/c64/c64_chr_cmd.png)    |
-| CLOSE   | CL shift O   | ![CLOSE cmd](../assets/c64/c64_close_cmd.png) |
-| DATA    | D shift A    | ![DATA cmd](../assets/c64/c64_data_cmd.png)   |
-| LOAD    | L shift O    | ![LOAD cmd](../assets/c64/c64_load_cmd.png)   |
-| PEEK    | P shift E    | ![PEEK cmd](../assets/c64/c64_peek_cmd.png)   |
-| POKE    | P shift O    | ![POKE cmd](../assets/c64/c64_poke_cmd.png)   |
-| PRINT   | ?            | ![PRINT cmd](../assets/c64/c64_print_cmd.png) |
-| SAVE    | S shift A    | ![SAVE cmd](../assets/c64/c64_save_cmd.png)   |
+| ASC     | A shift S    | ![ASC cmd]({{ site.url }}/assets/c64/c64_asc_cmd.png)     |
+| CHR$    | C shift H    | ![CHR$ cmd]({{ site.url }}/assets/c64/c64_chr_cmd.png)    |
+| CLOSE   | CL shift O   | ![CLOSE cmd]({{ site.url }}/assets/c64/c64_close_cmd.png) |
+| DATA    | D shift A    | ![DATA cmd]({{ site.url }}/assets/c64/c64_data_cmd.png)   |
+| LOAD    | L shift O    | ![LOAD cmd]({{ site.url }}/assets/c64/c64_load_cmd.png)   |
+| PEEK    | P shift E    | ![PEEK cmd]({{ site.url }}/assets/c64/c64_peek_cmd.png)   |
+| POKE    | P shift O    | ![POKE cmd]({{ site.url }}/assets/c64/c64_poke_cmd.png)   |
+| PRINT   | ?            | ![PRINT cmd]({{ site.url }}/assets/c64/c64_print_cmd.png) |
+| SAVE    | S shift A    | ![SAVE cmd]({{ site.url }}/assets/c64/c64_save_cmd.png)   |
