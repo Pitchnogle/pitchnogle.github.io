@@ -96,7 +96,7 @@ There is another way to load a program using the cursors. This time, we'll load 
 
 # Updating a saved program
 
-Line 10 in the listing is incorrect -- the `REM` comment wasn't updated properly. If update the line, and save the file like before, it won't take since the file already exists. In order to revise the file, the syntax for saving the file changes somewhat.
+Line 10 in the listing is incorrect -- the `REM` comment wasn't updated properly. If we update the line, and save the file like before, it won't take since the file already exists. In order to revise the file, the syntax for saving the file changes somewhat.
 
 We need to add a `@0:` before the filename. *Internally, this is essentially creating a new file, deleting the old file, then renaming the new file to the old file, but this way involves much less typing!*
 {: .notice--success}
