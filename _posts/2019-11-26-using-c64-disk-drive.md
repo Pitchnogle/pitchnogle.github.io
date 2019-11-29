@@ -1,5 +1,5 @@
 ---
-title: "Using C= Disk Drive"
+title: "Using a C= Disk Drive"
 categories:
   - c64
 tags:
@@ -19,6 +19,7 @@ Commodore made a number of disk drives for their various computer models. To det
 40 PRINT EN,EM$,ET,ES
 50 CLOSE 15
 ```
+This short function can decode the error when the LED on a disk drive is blinking. In the example below, this is the normal output when the program is run with no disk inserted.
 
 ![C=64 check dos version]({{ site.url }}/assets/images/c64/check_dos_version.png)
 
@@ -31,7 +32,7 @@ OPEN 15,8,15,"N0:BLOG DISK,B0":CLOSE 15
 
 If using the Vice emulator, select 'File->Create and attach an empty disk image ...'. The name in the upper part of the window refers to the disk name on Windows; in this example, the file created would be named `blog_disk.d64`. 
 
-The lower part of the window refers to the C64 side. In this case the disk is given the name `BLOG DISK` with an id of `B0`. *Make sure to use lower case. It will be upper case within Vice. If upper case is used, then the name and id will be symbols.*
+The lower part of the window refers to the desired contents on the C64 virtual disk. In this case the disk is given the name `BLOG DISK` with an id of `B0`. *Make sure to use lower case. It will automatically convert to upper case within Vice. If upper case is used, then the name and id will be symbols.*
 
 ![vice create new disk]({{ site.url }}/assets/images/c64/vice_new_disk.png)
 
@@ -40,7 +41,7 @@ If a disk has already been created, select 'File->Attach disk image->Drive #8' o
 
 # Listing the disk directory
 
-Once the disk is present, `LOAD"$",8` command followed by `LIST` will display the contents.
+Once the disk is present, type `LOAD"$",8` command followed by `LIST` to display the contents.
 
 ![C=64 list directory]({{ site.url }}/assets/images/c64/vice_disk_list.png)
 
@@ -48,7 +49,7 @@ This is an empty disk so there are no programs present.
 
 # Saving a new program
 
-One nice feature of Vice is the ability to copy-paste a program. _Make sure the program is written in lower case before pasting into Vice._ If a Basic program is copied onto the clipboard, select 'Edit->Paste' or alt-insert to paste the program to the emulator. This is handy for source control of Basic programs.
+One nice feature of Vice is the ability to copy-paste a program. _Make sure the program is written in lower case before pasting into Vice!_ If a Basic program is copied onto the clipboard, select 'Edit->Paste' or alt-insert to paste the program to the emulator. This is handy for source control of Basic programs.
 {: .notice--info}
 
 In this section we will create some simple programs to change the border, the screen color and the text color. The code is the same for each *look* except for the first two lines.
@@ -91,10 +92,13 @@ If we `LIST` again, the Basic program will be shown in memory.
 
 ![C=64 list apple look]({{ site.url }}/assets/images/c64/run_apple_look.png)
 
-There is another way to load a program using the cursors. This time, we'll load the CoCo look program. Use the cursor keys to navigate to the line with the CoCo look program, type `LOAD` over the program number, then `,8` after the program name. Keep hitting spacebar to clear the `PRG` part of the line. 
+There is another way to load a program using the cursors. This time, we'll load the CoCo look program. Use the cursor keys to navigate to the line with the CoCo look program, type `LOAD` over the number in front of the program name, then `,8` after the program name. Keep hitting spacebar to clear the `PRG` part of the line. 
 {: .notice--info}
 
 ![C=64 load coco look]({{ site.url }}/assets/images/c64/load_coco_look.png)
+
+The number in front of the program is the program size in blocks, where a block is 256 bytes.
+{: .notice--info}
 
 # Updating a saved program
 

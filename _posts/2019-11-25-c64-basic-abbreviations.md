@@ -6,7 +6,7 @@ tags:
   - commodore 64
 ---
 
-The Commodore 64 version of BASIC features abbreviations for many common commands. 
+The Commodore 64 version of Basic features abbreviations for many common commands. 
 
 For example, the abbreviation for `PRINT` is a question mark. This saves some typing when entering the commands. However, `LIST` will show the full command if used in a program.
 
