@@ -29,7 +29,9 @@ On a real Commodore 64, a new disk named `BLOG DISK` with the id of `B0` can be 
 OPEN 15,8,15,"N0:BLOG DISK,B0":CLOSE 15
 {: .notice--info}
 
-If using the Vice emulator, select 'File->Create and attach an empty disk image ...'. The name in the upper part of the window refers to the disk name on Windows; in this example, the file created would be named `blog_disk.d64`. The lower part of the window refers to the C64 side. In this case the disk is given the name `BLOG DISK` with an id of `B0`. *Make sure to use lower case. It will be upper case within Vice. If upper case is used, then the name and id will be symbols.*
+If using the Vice emulator, select 'File->Create and attach an empty disk image ...'. The name in the upper part of the window refers to the disk name on Windows; in this example, the file created would be named `blog_disk.d64`. 
+
+The lower part of the window refers to the C64 side. In this case the disk is given the name `BLOG DISK` with an id of `B0`. *Make sure to use lower case. It will be upper case within Vice. If upper case is used, then the name and id will be symbols.*
 
 ![vice create new disk]({{ site.url }}/assets/images/c64/vice_new_disk.png)
 
